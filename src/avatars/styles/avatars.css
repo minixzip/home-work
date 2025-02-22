@@ -1,0 +1,48 @@
+.container {
+  align-items: center;
+  position: relative;
+  margin: 20px;
+}
+
+.box {
+  padding: 100px;
+  background-color: #ffffff;
+  width: 396px;
+}
+
+.avatars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar_img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.state_green,
+.state_gray {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 15.8px;
+  height: 15.8px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.state_gray {
+  background-color: #dbdbdb;
+}
+
+.state_green {
+  background-color: #4cfe88;
+}
