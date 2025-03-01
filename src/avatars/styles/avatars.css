@@ -1,5 +1,4 @@
 .container {
-  align-items: center;
   position: relative;
   margin: 20px;
 }
@@ -31,11 +30,11 @@
 .state_green,
 .state_gray {
   position: absolute;
+  border-radius: 50%;
   bottom: 0px;
   right: 0px;
   width: 15.8px;
   height: 15.8px;
-  border-radius: 50%;
   border: 1px solid white;
 }
 
