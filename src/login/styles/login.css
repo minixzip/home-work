@@ -1,0 +1,111 @@
+.body {
+  padding: 1.25rem;
+}
+
+.mainlogo {
+  width: 14.375rem;
+  margin-top: 4.375rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  margin: 1.25rem;
+
+  margin-top: 2.8125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 31.25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.id,
+.password {
+  margin-bottom: 0.625rem;
+  width: 100%;
+}
+
+.input {
+  height: 2.8125rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-button {
+  text-align: center;
+  border: none;
+  flex-flow: row nowrap;
+  background: #03cf5d;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  color: #fff;
+  height: 2.8125rem;
+  width: 100%;
+}
+
+.state-ip {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.625rem;
+}
+
+@media (max-width: 785px) {
+  .checkstate {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 786px) {
+  .checkstate {
+    justify-content: flex-start;
+  }
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checked {
+  display: block;
+}
+
+.unchecked {
+  display: none;
+}
+
+.ip {
+  display: none;
+  color: #121212;
+}
+
+.button-off {
+  border: none;
+  background: none;
+  color: #999999;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .ip {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.checkbox {
+  display: no;
+}
