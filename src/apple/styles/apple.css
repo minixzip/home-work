@@ -57,12 +57,11 @@
 
 .main {
   display: grid;
-  gap: var(--large-spacing);
+  gap: 1.25rem;
   grid-template-columns: repeat(1, 1fr);
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--extra-large-spacing);
 
     .card-01 {
       grid-area: 1 / 1 / 2 / 3;
