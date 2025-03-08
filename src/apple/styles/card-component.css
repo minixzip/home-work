@@ -35,6 +35,7 @@
 
     @media (min-width: 1024px) {
       font-size: var(--medium-text);
+      line-height: var(--line-normal);
     }
   }
 
