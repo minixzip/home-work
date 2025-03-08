@@ -2,9 +2,9 @@
 
 **13 김혜민**
 
-- [마크다운 문법](./src/md/markdown.md)
-- [회고](./src/md/retrospect.md)
-- [아바타 만들기](./src/avatars/avatars.html)
-- [회고](./src/avatars/avatars.md)
-- [로그인](./src/login/login.html)
-- [회고](./src/login/login.md)
+| 주차    | 내용                                                                                  |
+| ------- | ------------------------------------------------------------------------------------- |
+| 1,2주차 | - [마크다운 문법](./src/md/markdown.md) <br> - [회고](./src/md/retrospect.md)         |
+| 3주차   | - [아바타 만들기](./src/avatars/avatars.html) <br> - [회고](./src/avatars/avatars.md) |
+| 4주차   | - [로그인](./src/login/login.html) <br> - [회고](./src/login/login.md)                |
+| 5주차   | - [애플](./src/apple/apple.html) <br> - [회고](./src/apple/apple.md)                  |
